@@ -1,8 +1,8 @@
- create files
+# create files
 vim txtFile.txt
  vim csvFile.csv 
 
-# Make a textData folder on the HDFS
+# Make a folder on the HDFS
 hdfs dfs -mkdir /user/Tumpa_bigdata/textData
 
 #Copy the CSV file, csvFile.csv, into HDFS
